@@ -27,4 +27,6 @@ jobs:
     # Directory path to extract archive.
     # Shows details about the result of running this action.
         verbose: true
+    - name: ls
+      run: ls
           
