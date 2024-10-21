@@ -27,7 +27,7 @@ jobs:
    name: Extract Action
   # You may pin to the exact commit or the version.
   # uses: ihiroky/extract-action@2bdc0b8926237c3829211a3e21ad129ce2769d05
-   uses: https://raw.githubusercontent.com/ihiroky/extract-action/refs/heads/main/.github/workflows/release.yml@1
+   uses: ihiroky/extract-action@1
    with:
   # File path to extract.
     file_path: extract.zip
