@@ -23,11 +23,9 @@ concurrency:
 
 jobs:
   extract:
-    name: Extract zip
-    uses: ihiroky/extract-action@v1
+    uses: brunoborges/justextract@v1
     with:
-      file_path: extract.zip
-    verboose: true
+      file: fileName
   # Single deploy job since we're just deploying
    
     
