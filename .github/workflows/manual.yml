@@ -23,7 +23,7 @@ jobs:
       uses: ihiroky/extract-action@v1
       with:
     # File path to extract.
-        file_path: extract.zip
+        file_path: /extract.zip
     # Directory path to extract archive.
     # Shows details about the result of running this action.
         verbose: true
