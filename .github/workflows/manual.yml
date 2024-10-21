@@ -19,4 +19,4 @@ jobs:
     # Runs a single command using the runners shell
     - uses: brunoborges/justextract@v1
       with:
-        file: fileName
+        file: extract.zip
