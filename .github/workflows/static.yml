@@ -23,11 +23,11 @@ concurrency:
 
 jobs:
   extract:
-    name: Extract tgz
+    name: Extract zip
     uses: ihiroky/extract-action@v1
     with:
-      file_path: path_to_archive_file
-      extract_dir: path_to_extract_directory
+      file_path: extract.zip
+    verboose: true
   # Single deploy job since we're just deploying
    
     
